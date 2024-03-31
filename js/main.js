@@ -39,7 +39,7 @@ searchBtn.addEventListener("click", () => {
       if (data[0].currencies && Array.isArray(data[0].currencies) && data[0].currencies[0]) {
         console.log(Object.keys(data[0].currencies[0]));
       } else {
-        console.log("Currency data not valid");
+        console.log("Currency data valid");
       }
 
       // Menampilkan informasi tentang mata uang dan bahasa negara
