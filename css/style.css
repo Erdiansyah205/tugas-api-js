@@ -11,7 +11,7 @@
 
 /* Pengaturan untuk body */
 body {
-  background-color: 	#DC143C;
+  background-color: #dc143c;
 }
 
 /* Pengaturan untuk kontainer utama */
@@ -38,7 +38,7 @@ body {
 /* Pengaturan untuk tombol pencarian */
 .search-wrapper button {
   font-size: 1em;
-  background-color: #DC143C;
+  background-color: #dc143c;
   color: #ffffff;
   padding: 0.8em 0;
   border-radius: 1.5em;
@@ -57,6 +57,16 @@ body {
 /* Pengaturan untuk hasil pencarian */
 #result {
   margin-top: 1.25em;
+  background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan opacity */
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* Pengaturan untuk negara yang dipilih */
+#result div:focus,
+#result div:hover {
+  background-color: #3d64e6; /* Warna latar belakang saat negara dipilih */
+  color: #ffffff; /* Warna teks saat negara dipilih */
 }
 
 /* Pengaturan untuk gambar bendera */
@@ -66,6 +76,7 @@ body {
   min-width: 7.5em;
   margin: 1.8em auto 1.2em auto;
 }
+
 
 /* Pengaturan untuk judul h2 */
 .container h2 {
