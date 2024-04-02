@@ -84,7 +84,7 @@ function searchCountry() {
       lastSearchResult = searchResult; // Menyimpan hasil pencarian terakhir
 
       // Cetak data negara ke konsol
-      console.log("Data negara:", data[0]);
+      console.log("Country Data:", data[0]);
     })
     .catch((error) => {
       // Menampilkan pesan kesalahan saat terjadi kesalahan dalam mengambil data
